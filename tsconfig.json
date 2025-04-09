@@ -7,8 +7,18 @@
       "esModuleInterop": true,
       "skipLibCheck": true,
       "allowSyntheticDefaultImports": true,
-      "baseUrl": "."
+      "baseUrl": ".",
+      "types": ["vitepress/client"]
+
     },
-    "include": ["docs/.vitepress/**/*.ts", "vite.config.ts"]
-  }
-  
+  "include": [
+    "docs/.vitepress/**/*.ts",
+    "docs/.vitepress/**/*.vue",
+    "vite.config.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "docs/.vitepress/cache"
+  ]
+}

@@ -43,23 +43,15 @@ const ratingEmojis = {
 
 function groupAndSortBooks() {
     const groups = {}
-
     ratingOrder.forEach(r => (groups[r] = []))
 
     books.value.forEach(book => {
         if (groups[book.rating]) {
             groups[book.rating].push(book)
-        } else {
-            groups[book.rating] = [book]
         }
     })
 
-    ratingOrder.forEach(r => {
-        if (groups[r]) {
-            // Use order of books as-is for now
-            groupedBooks.value[r] = groups[r]
-        }
-    })
+    groupedBooks.value = groups
 }
 
 onMounted(async () => {
