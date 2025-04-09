@@ -1,4 +1,4 @@
-/* ========== Base Typography & Layout ========== */
+/* Base Typography & Layout */
 body {
     font-family: 'Rubik', 'Segoe UI', sans-serif;
     font-size: 18px;
@@ -7,7 +7,7 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
-/* Content Word Wrapping */
+/* Wrapping for content only */
 .VPContent {
     word-wrap: break-word;
     overflow-wrap: break-word;
@@ -19,7 +19,7 @@ body {
     word-break: break-word;
 }
 
-/* Headings with Gradient Underlines */
+/* Headings */
 h1,
 h2,
 h3 {
@@ -50,18 +50,13 @@ h3::after {
     background: var(--h3-underline);
 }
 
-/* Bullet List Custom Dash Style */
-ul {
-    list-style-type: none;
+.VPDoc .content-container ul {
+    list-style: none;
     padding-left: 1.2rem;
 
     li {
         position: relative;
         padding-left: 1em;
-    }
-
-    li::marker {
-        content: none;
     }
 
     li::before {
@@ -72,7 +67,7 @@ ul {
     }
 }
 
-/* Link Styling */
+/* Links */
 a {
     color: var(--vp-c-link);
     text-decoration: underline;
@@ -85,7 +80,7 @@ a {
     }
 }
 
-/* Code Blocks */
+/* Code Styling */
 code,
 pre {
     background-color: var(--vp-c-bg-alt);
@@ -95,7 +90,7 @@ pre {
     padding: 0.2rem 0.4rem;
 }
 
-/* Input Fields */
+/* Inputs */
 button,
 input,
 select,
@@ -107,7 +102,7 @@ textarea {
     padding: 0.5rem;
 }
 
-/* Footer Style */
+/* Footer */
 footer {
     border-top: 1px solid var(--vp-c-border);
     text-align: center;
@@ -115,27 +110,30 @@ footer {
     padding: 1rem;
 }
 
-/* Outline Sidebar Fixes */
-.VPSidebarOutline ul {
+/* Top Nav Active Link */
+.VPNavBar .VPNavBarMenuLink.active {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--vp-c-brand) !important;
+}
+
+/* Outline Sidebar Fix (Right-hand TOC) */
+.VPDocAsideOutline .outline-link.active {
+    font-weight: 600;
+    color: var(--vp-c-brand) !important;
+    text-decoration: none;
+}
+
+.VPDocAsideOutline ul {
     list-style: none;
     padding-left: 0;
 }
 
-.VPSidebarOutline li {
-    padding-left: 0.8rem;
-    position: relative;
+.VPDocAsideOutline li::before {
+    content: none;
 }
 
-.VPSidebarOutline li::before {
-    content: none !important;
-}
-
-.VPSidebarOutline .outline-link.active {
-    font-weight: bold;
-    color: var(--vp-c-brand) !important;
-}
-
-/* ========== Light Theme ========== */
+/* Light Theme */
 :root {
     --vp-c-bg: #fdfcfd;
     --vp-c-bg-soft: #f4f2f7;
@@ -152,7 +150,7 @@ footer {
     --h3-underline: linear-gradient(to right, #6f90f8, transparent);
 }
 
-/* ========== Dark Theme ========== */
+/* Dark Theme */
 .dark {
     --vp-c-bg: #100e17;
     --vp-c-bg-soft: #191621;

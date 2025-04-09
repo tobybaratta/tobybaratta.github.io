@@ -1,5 +1,11 @@
-# Blog
+---
+title: 'Blog'
+---
 
-This is a place where blog posts probably will go in the future. ¯\_(ツ)\_/¯
+# Newwww achieevement!!!
 
-- [This is an empty post.](./p1.md) – Apr 8, 2025
+You've found an empty blog! It's not really empty, but it sure is empty of content.
+
+**Reward?** You get to see this message!
+
+¯\_(ツ)\_/¯

@@ -2,9 +2,9 @@
 outline: false
 ---
 
-# Hi, I'm Toby Baratta
+# Hi, I'm Toby
 
-I'm a researcher, technologist, and organizer working in moderation, trust & safety, and human-computer interaction. My work focuses on building better systems for communities online — ones that are thoughtful, transparent, and actually work for people.
+I’m currently a PhD student at the University of California, Irvine, where I study how grassroots online communities self-govern. I'm particularly focused around gaming communities and metagovernance, moderation best practices, and conduct enforcement.
 
 A few current projects and updates:
 
@@ -16,7 +16,7 @@ A few current projects and updates:
 
 I live in Irvine with my two cats, **Alfie** and **Lucy**. In my spare time, I play a lot of video games — I’m currently playing _Metaphor: Refantasio_.
 
-Thanks for stopping by. Feel free to explore, read, or reach out.
+Thanks for stopping by. Feel free to explore, read, or reach out! ^.^
 
 ---
 

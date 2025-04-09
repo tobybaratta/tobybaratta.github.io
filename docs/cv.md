@@ -1,3 +1,7 @@
+---
+title: Curriculum Vitae
+---
+
 [📄 Download the more detailed PDF version](./Toby_Baratta_CV.pdf)
 
 ## Contact Me
@@ -8,6 +12,7 @@
 - LinkedIn: [tobybaratta](https://linkedin.com/in/tobybaratta)
 - GitHub: [tobybaratta](https://github.com/tobybaratta)
 - ORCID: [0009-0009-2545-0335](https://orcid.org/0009-0009-2545-0335)
+- Bluesky: [toby.earth](https://bsky.app/profile/toby.earth)
 
 ## Education
 
