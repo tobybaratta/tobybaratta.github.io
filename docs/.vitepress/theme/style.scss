@@ -1,4 +1,4 @@
-/* ========== Shared Base Styles ========== */
+/* ========== Base Typography & Layout ========== */
 body {
     font-family: 'Rubik', 'Segoe UI', sans-serif;
     font-size: 18px;
@@ -7,7 +7,7 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
-/* Word wrapping only for main content */
+/* Content Word Wrapping */
 .VPContent {
     word-wrap: break-word;
     overflow-wrap: break-word;
@@ -19,7 +19,7 @@ body {
     word-break: break-word;
 }
 
-/* Headers with gradient underlines */
+/* Headings with Gradient Underlines */
 h1,
 h2,
 h3 {
@@ -50,14 +50,18 @@ h3::after {
     background: var(--h3-underline);
 }
 
-/* Clean dash-style bullet points */
+/* Bullet List Custom Dash Style */
 ul {
-    list-style: none;
+    list-style-type: none;
     padding-left: 1.2rem;
 
     li {
         position: relative;
         padding-left: 1em;
+    }
+
+    li::marker {
+        content: none;
     }
 
     li::before {
@@ -68,7 +72,7 @@ ul {
     }
 }
 
-/* Link cleanup */
+/* Link Styling */
 a {
     color: var(--vp-c-link);
     text-decoration: underline;
@@ -81,7 +85,7 @@ a {
     }
 }
 
-/* Code style */
+/* Code Blocks */
 code,
 pre {
     background-color: var(--vp-c-bg-alt);
@@ -91,7 +95,7 @@ pre {
     padding: 0.2rem 0.4rem;
 }
 
-/* Inputs */
+/* Input Fields */
 button,
 input,
 select,
@@ -103,12 +107,32 @@ textarea {
     padding: 0.5rem;
 }
 
-/* Footer */
+/* Footer Style */
 footer {
     border-top: 1px solid var(--vp-c-border);
     text-align: center;
     color: var(--vp-c-text-2);
     padding: 1rem;
+}
+
+/* Outline Sidebar Fixes */
+.VPSidebarOutline ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.VPSidebarOutline li {
+    padding-left: 0.8rem;
+    position: relative;
+}
+
+.VPSidebarOutline li::before {
+    content: none !important;
+}
+
+.VPSidebarOutline .outline-link.active {
+    font-weight: bold;
+    color: var(--vp-c-brand) !important;
 }
 
 /* ========== Light Theme ========== */

@@ -1,36 +1,25 @@
 ---
 outline: false
-title: 'Hello!'
 ---
 
-## tl;dr
+# Hi, I'm Toby Baratta
 
-I'm still working on this website! It's a work-in progress.
+I'm a researcher, technologist, and organizer working in moderation, trust & safety, and human-computer interaction. My work focuses on building better systems for communities online — ones that are thoughtful, transparent, and actually work for people.
 
-- 🏫 Status: PhD Student in Informatics – University of California, Irvine
-- 📖 Focus: Studying Codes of Conducts in Online Grassroots Communities
+A few current projects and updates:
 
-## basic stuff
+- I'm a Teaching Assistant for Games & Society at the University of California, Irvine.
+- I’ll be speaking at the **All Things in Moderation** conference in May 2025.
+- I’m writing a book review for the **International Journal of Communication**.
+- I just got back from the **CRA-IDEALS** conference at the beginning of April 2025.
+- I recently was the Technical Director for **Battle of BC 7**, a major fighting game tournament in Vancouver, Canada. (I was the voice in the commentators' ears.)
 
-- 😄 Pronouns: she/her/hers
-- 🏠 Location: Irvine, California
-- 🌱 I’m currently learning about the motivations of grassroots volunteers and leaders in gaming communities and tournaments, including the impact of metagovernance on community moderation and safety.
+I live in Irvine with my two cats, **Alfie** and **Lucy**. In my spare time, I play a lot of video games — I’m currently playing _Metaphor: Refantasio_.
 
-## contact me
+Thanks for stopping by. Feel free to explore, read, or reach out.
 
-- Bluesky: [toby.earth](https://bsky.app/toby.earth)
-- LinkedIn: [tobybaratta](https://linkedin.com/in/tobybaratta)
-- Telegram: [tobybaratta](https://t.me/tobybaratta)
-- Email: me at toby dot earth
-- School Email: t baratta at uci dot edu
-- Discord: earthie22
+---
 
-## background
-
-- 💼 I worked at Microsoft as a Senior Software Engineer for 5.5 years and two different startups over two years.
-- 👩‍💻 I’m a maintainer of NodeCG and a contributor to live broadcast graphics and tooling.
-- 🎥 I run and broadcast large gaming tournaments, particularly in Super Smash Brothers Melee and Splatoon.
-  - ⚒️ I’m a Lead of Level1 TV, a broadcast and event organizing team, with work spanning large events and now merch shops and Twitch partner.
-  - 📸 I was a lead for EndGameTV.
-- 🎓 Grinnell College 2017, Computer Science, Political Science, and Statistics.
-- 🌴 Originally from Florida.
+<div style="text-align: center; margin-top: 2rem;">
+  <img src="/images/toby-bobc7.jpg" alt="Toby Baratta working production at Battle of BC 7" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);" loading="lazy" />
+</div>
