@@ -5,10 +5,10 @@ title: 'Hello!'
 
 ## tl;dr
 
-    🏫 Status: PhD Student in Informatics – University of California, Irvine
-    📖 Focus: Studying Codes of Conducts in Online Grassroots Communities
+I'm still working on this website! It's a work-in progress.
 
-this is a wip
+- 🏫 Status: PhD Student in Informatics – University of California, Irvine
+- 📖 Focus: Studying Codes of Conducts in Online Grassroots Communities
 
 ## basic stuff
 
