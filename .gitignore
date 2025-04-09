@@ -17,3 +17,6 @@ pnpm-debug.log*
 
 # macOS-specific files, I don't know why I'd ever have these but
 .DS_Store
+
+# vite specific files
+docs/.vitepress/cache

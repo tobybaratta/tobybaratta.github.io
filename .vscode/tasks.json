@@ -1,0 +1,45 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Dev Server",
+      "type": "shell",
+      "command": "npm run dev",
+      "group": "build",
+      "problemMatcher": [],
+      "detail": "Starts the VitePress development server"
+    },
+    {
+      "label": "Build Site",
+      "type": "shell",
+      "command": "npm run build",
+      "group": "build",
+      "problemMatcher": [],
+      "detail": "Builds the VitePress site for production"
+    },
+    {
+      "label": "Lint",
+      "type": "shell",
+      "command": "npm run lint",
+      "group": "test",
+      "problemMatcher": ["$eslint-stylish"],
+      "detail": "Lints the codebase using ESLint"
+    },
+    {
+      "label": "Prettier Check",
+      "type": "shell",
+      "command": "npm run check-format",
+      "group": "test",
+      "problemMatcher": [],
+      "detail": "Checks formatting using Prettier"
+    },
+    {
+      "label": "Prettier Fix",
+      "type": "shell",
+      "command": "npm run format",
+      "group": "test",
+      "problemMatcher": [],
+      "detail": "Fixes formatting using Prettier"
+    }
+  ]
+}

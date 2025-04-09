@@ -1,0 +1,135 @@
+/* ========== Shared Base Styles ========== */
+body {
+    font-family: 'Rubik', 'Segoe UI', sans-serif;
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 1.6;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body,
+.VPContent {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* Headers with gradient underlines */
+h1,
+h2,
+h3 {
+    position: relative;
+    color: var(--vp-c-text-1);
+    padding-bottom: 0.3em;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+    &::after {
+        content: '';
+        display: block;
+        height: 3px;
+        margin-top: 6px;
+        border-radius: 2px;
+    }
+}
+
+h1::after {
+    background: var(--h1-underline);
+}
+
+h2::after {
+    background: var(--h2-underline);
+}
+
+h3::after {
+    background: var(--h3-underline);
+}
+
+/* Links */
+a {
+    color: var(--vp-c-link);
+    text-decoration: underline;
+    border-bottom: none;
+    transition: all 0.2s ease;
+
+    &:hover {
+        color: var(--vp-c-brand-light);
+        text-decoration: underline;
+    }
+}
+
+/* Code */
+code,
+pre {
+    background-color: var(--vp-c-bg-alt);
+    color: var(--vp-c-text-2);
+    font-family: 'Fira Code', monospace;
+    border-radius: 4px;
+    padding: 0.2rem 0.4rem;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+/* Inputs */
+button,
+input,
+select,
+textarea {
+    background-color: var(--vp-c-bg-soft);
+    color: var(--vp-c-text-1);
+    border: 1px solid var(--vp-c-border);
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid var(--vp-c-border);
+    text-align: center;
+    color: var(--vp-c-text-2);
+    padding: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding-left: 1.2rem;
+
+    li::before {
+        content: '–';
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+        color: var(--vp-c-text-2);
+    }
+}
+
+/* ========== Light Theme (default) ========== */
+:root {
+    --vp-c-bg: #fdfcfd;
+    --vp-c-bg-soft: #f4f2f7;
+    --vp-c-bg-alt: #eae7f2;
+
+    --vp-c-text-1: #2c2c33;
+    --vp-c-text-2: #3d3d47;
+    --vp-c-brand: #007da5;
+    --vp-c-brand-light: #00aad6;
+
+    --h1-underline: linear-gradient(to right, #df3b7d, transparent);
+    --h2-underline: linear-gradient(to right, #00aacd, transparent);
+    --h3-underline: linear-gradient(to right, #6f90f8, transparent);
+}
+
+/* ========== Dark Theme ========== */
+.dark {
+    --vp-c-bg: #100e17;
+    --vp-c-bg-soft: #191621;
+    --vp-c-bg-alt: #0d0b12;
+
+    --vp-c-text-1: #bebebe;
+    --vp-c-text-2: #7aa2f7;
+    --vp-c-brand: #0fb6d6;
+    --vp-c-brand-light: #3dd7fb;
+
+    --h1-underline: linear-gradient(to right, #f4569d, transparent);
+    --h2-underline: linear-gradient(to right, #0fb6d6, transparent);
+    --h3-underline: linear-gradient(to right, #7aa2f7, transparent);
+}
