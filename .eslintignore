@@ -1,7 +1,5 @@
 # build output
 dist/
-# generated types
-.astro/
 
 # dependencies
 node_modules/
@@ -17,5 +15,5 @@ pnpm-debug.log*
 .env
 .env.production
 
-# macOS-specific files
+# macOS-specific files, I shouldn't ever have these but..
 .DS_Store

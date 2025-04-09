@@ -1,11 +1,23 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "command": "./node_modules/.bin/astro dev",
-            "name": "Development Astro server",
-            "request": "launch",
-            "type": "node-terminal"
-        }
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Dev Server",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/vitepress/bin/vitepress.js",
+      "args": ["dev", "docs"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Build Site",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/vitepress/bin/vitepress.js",
+      "args": ["build", "docs"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
 }

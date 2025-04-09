@@ -1,3 +1,14 @@
 {
-    "extends": "astro/tsconfigs/base"
-}
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "allowSyntheticDefaultImports": true,
+      "baseUrl": "."
+    },
+    "include": ["docs/.vitepress/**/*.ts", "vite.config.ts"]
+  }
+  

@@ -1,27 +1,28 @@
 {
-    "name": "@tobybaratta/site",
-    "type": "module",
-    "version": "0.0.1",
-    "private": true,
-    "scripts": {
-        "dev": "astro dev",
-        "start": "astro dev",
-        "build": "astro build",
-        "preview": "astro preview",
-        "astro": "astro"
-    },
-    "dependencies": {
-        "@typescript-eslint/eslint-plugin": "^6.2.0",
-        "astro": "^2.9.2"
-    },
-    "devDependencies": {
-        "@typescript-eslint/parser": "^6.2.0",
-        "eslint": "^8.45.0",
-        "eslint-plugin-astro": "^0.27.2",
-        "eslint-plugin-jsx-a11y": "^6.7.1",
-        "globals": "^13.20.0",
-        "prettier": "^3.0.0",
-        "prettier-plugin-astro": "^0.11.0",
-        "typescript": "^5.1.6"
-    }
+  "name": "toby-baratta-site",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "my site personal site",
+  "author": "Toby Baratta",
+  "license": "MIT",
+  "homepage": "https://toby.earth",
+  "private": true,
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs",
+    "lint": "eslint . --ext .ts,.js,.md",
+    "format": "prettier . --write",
+    "check-format": "prettier . --check"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "eslint": "^9.24.0",
+    "eslint-config-prettier": "^10.1.1",
+    "prettier": "3.5.3",
+    "sass": "^1.86.3",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.29.1",
+    "vitepress": "v2.0.0-alpha.4"
+  }
 }
