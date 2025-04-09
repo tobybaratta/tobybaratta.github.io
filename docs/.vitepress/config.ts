@@ -6,11 +6,10 @@ export default defineConfig({
   description: `Toby Baratta's personal website, a PhD Student in Informatics at UC-Irvine`,
   lang: 'en-US',
   lastUpdated: true,
-  base: '/tobybaratta.github.io/',
-  head: [['link', { rel: 'icon', href: '/tobybaratta.github.io/favicon.ico' }]],
+  base: '/',
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
     outline: [2, 2],
-
     nav: [
       { text: 'Home', link: '/' },
       { text: 'CV', link: '/cv' },
