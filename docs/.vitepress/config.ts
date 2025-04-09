@@ -12,6 +12,7 @@ export default defineConfig({
     outline: [2, 2],
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Now', link: '/now' },
       { text: 'CV', link: '/cv' },
       { text: 'Blog', link: '/blog/' },
       { text: 'Contact', link: '/contact' },
