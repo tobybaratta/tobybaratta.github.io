@@ -1,4 +1,7 @@
-# hi, i’m toby
+---
+outline: false
+title: 'Hello!'
+---
 
 ## tl;dr
 

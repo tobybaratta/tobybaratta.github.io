@@ -7,10 +7,16 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
-body,
+/* Word wrapping only for main content */
 .VPContent {
     word-wrap: break-word;
     overflow-wrap: break-word;
+}
+
+.VPContent pre,
+.VPContent code {
+    white-space: pre-wrap;
+    word-break: break-word;
 }
 
 /* Headers with gradient underlines */
@@ -44,7 +50,25 @@ h3::after {
     background: var(--h3-underline);
 }
 
-/* Links */
+/* Clean dash-style bullet points */
+ul {
+    list-style: none;
+    padding-left: 1.2rem;
+
+    li {
+        position: relative;
+        padding-left: 1em;
+    }
+
+    li::before {
+        content: '–';
+        position: absolute;
+        left: 0;
+        color: var(--vp-c-text-2);
+    }
+}
+
+/* Link cleanup */
 a {
     color: var(--vp-c-link);
     text-decoration: underline;
@@ -57,7 +81,7 @@ a {
     }
 }
 
-/* Code */
+/* Code style */
 code,
 pre {
     background-color: var(--vp-c-bg-alt);
@@ -65,8 +89,6 @@ pre {
     font-family: 'Fira Code', monospace;
     border-radius: 4px;
     padding: 0.2rem 0.4rem;
-    white-space: pre-wrap;
-    word-break: break-word;
 }
 
 /* Inputs */
@@ -89,20 +111,7 @@ footer {
     padding: 1rem;
 }
 
-ul {
-    list-style: none;
-    padding-left: 1.2rem;
-
-    li::before {
-        content: '–';
-        display: inline-block;
-        width: 1em;
-        margin-left: -1em;
-        color: var(--vp-c-text-2);
-    }
-}
-
-/* ========== Light Theme (default) ========== */
+/* ========== Light Theme ========== */
 :root {
     --vp-c-bg: #fdfcfd;
     --vp-c-bg-soft: #f4f2f7;
@@ -112,6 +121,7 @@ ul {
     --vp-c-text-2: #3d3d47;
     --vp-c-brand: #007da5;
     --vp-c-brand-light: #00aad6;
+    --vp-c-link: #0088cc;
 
     --h1-underline: linear-gradient(to right, #df3b7d, transparent);
     --h2-underline: linear-gradient(to right, #00aacd, transparent);
@@ -128,6 +138,7 @@ ul {
     --vp-c-text-2: #7aa2f7;
     --vp-c-brand: #0fb6d6;
     --vp-c-brand-light: #3dd7fb;
+    --vp-c-link: #6bcafb;
 
     --h1-underline: linear-gradient(to right, #f4569d, transparent);
     --h2-underline: linear-gradient(to right, #0fb6d6, transparent);
