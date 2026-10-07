@@ -19,3 +19,5 @@ I live in Irvine, California, with my two cats, **Alfie** and **Lucy**. Outside 
 <div style="text-align: center; margin-top: 2rem;">
   <img src="/images/toby-bobc7.jpg" alt="Toby Baratta working production at Battle of BC 7" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);" loading="lazy" />
 </div>
+
+<p style="margin-top: 2rem; font-size: 0.875rem; color: var(--vp-c-text-2);">I use AI tools to help build and update this website.</p>
