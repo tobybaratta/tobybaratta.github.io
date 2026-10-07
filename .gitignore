@@ -20,3 +20,6 @@ pnpm-debug.log*
 
 # vite specific files
 docs/.vitepress/cache
+
+# VitePress temporary build files
+docs/.vitepress/.temp/
