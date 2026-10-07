@@ -1,11 +1,17 @@
 # Now
 
-A few current projects and updates:
+*Updated October 2026*
 
-- I'm a Teaching Assistant for Games & Society at the University of California, Irvine.
-- I’ll be speaking at the **All Things in Moderation** conference in May 2025.
-- I’m writing a book review for the **International Journal of Communication**.
-- I just got back from the **CRA-IDEALS** conference at the beginning of April 2025.
-- I recently was the Technical Director for **Battle of BC 7**, a major fighting game tournament in Vancouver, Canada. (I was the voice in the commentators' ears.)
+I’m in my third year of the Informatics PhD program at UCI, studying gaming communities and how people express compassion and gratitude online. My research is supported by the NSF CSGrad4US fellowship.
+
+I’m preparing to present **“Understanding gamers’ expressions of compassion and gratitude on Discord”** at Meaningful Play in October 2026.
+
+This past summer, I focused primarily on research and returned to UCI’s ICS Summer Academy to teach Software Engineering to high school students. In summer 2025, I taught both Software Engineering and Software Design through the academy. I also worked as a DTEI Graduate Fellow in 2025, helping set up and run UCI’s Streaming Studio and teach people how to use it for livestreaming.
+
+## Previously
+
+- Presented at the All Things in Moderation conference.
+- Attended CRA-IDEALS in April 2025.
+- Served as Technical Director for Battle of BC 7, a major fighting game tournament in Vancouver, Canada.
 
 <Bookshelf />
