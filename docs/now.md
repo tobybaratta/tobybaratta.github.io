@@ -10,7 +10,7 @@ I've been working on some fun side projects, looking at gacha games and the aspe
 
 
 ## Previously
-- My fun project I worked on recently was [Umamusume Stable](/uma-stable)
+- My fun project I worked on recently was [Umamusume Stable](https://toby.earth/uma-stable)
 - Presented at the All Things in Moderation 2025 conference.
 - Attended CRA-IDEALS in April 2025.
 - Served as Technical Director for Battle of BC 7, a major fighting game tournament in Vancouver, Canada.

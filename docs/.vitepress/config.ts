@@ -23,10 +23,6 @@ export default defineConfig({
       { icon: 'gmail', link: 'mailto:me@toby.earth' },
       { icon: 'bluesky', link: 'https://bsky.app/profile/toby.earth' },
     ],
-    footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2023-present Toby Baratta',
-    },
   },
   markdown: {
     theme: 'material-theme-palenight',

@@ -18,5 +18,3 @@ I live in Irvine, California, with my two cats, **Alfie** and **Lucy**. Outside 
   <img src="/images/toby-bobc7.jpg" alt="Toby Baratta at Battle of BC 7 in 2025" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);" loading="lazy" />
   <p style="font-size: 0.875rem; color: var(--vp-c-text-2);">At Battle of BC 7 in 2025.</p>
 </div>
-
-<p style="margin-top: 2rem; font-size: 0.875rem; color: var(--vp-c-text-2);">I use AI tools to help maintain this site. Dependencies are annoying. The robot can handle </p>
