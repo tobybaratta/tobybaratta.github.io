@@ -20,7 +20,7 @@ title: Curriculum Vitae
 **Ph.D. in Informatics**  
 _Irvine, California – Sep 2024–Present_
 
-- Researching the motivations of grassroots volunteers and leaders in gaming communities and tournaments, including the impact of metagovernance on community moderation and safety.
+- Researching how the design of games and platforms shapes online gaming communities, including how people govern, moderate, and support one another, and how they express compassion and gratitude on Discord.
 - Advised by Professor Katie Salen Tekinbaş.
 
 ### Grinnell College
@@ -38,6 +38,13 @@ _August 2023_
 - $37,000 stipend & $16,000 cost-of-education allowance for 3 years.
 
 ## Research Experiences
+
+### Compassion and Gratitude on Discord
+
+_Ongoing_
+
+- Qualitative interview study of how young adults (ages 18–25) understand and express compassion and gratitude across the Discord servers they belong to, and how Discord's features and server setups shape those practices.
+- Advised by Professor Katie Salen Tekinbaş, Connected Learning Lab.
 
 ### Examining Motivation of Gaming Tournament Volunteers
 
@@ -85,6 +92,18 @@ _Irvine, CA - Aug 2024 – Present_
 - Teaching Assistant for Introduction to Game Development, a lower-level course with 100 students with varying experience in programming and coding.
 - Ensured Unity was installed on all library and Informatics computers, as well as loanable resources for students without access to laptops
 - Created custom scripts and Google Sheets integration to connect GitHub, Canvas, PollEverywhere, and itch.io together to allow for smooth & pseudo-anonymous grading
+
+### UCI ICS Summer Academy — Instructor
+
+_Irvine, CA - Summers 2025 & 2026_
+
+- Taught Software Engineering to high school students (2025 and 2026) and Software Design (2025).
+
+### UCI DTEI Graduate Fellow
+
+_Irvine, CA - 2025_
+
+- Helped set up and run UCI's Streaming Studio and taught people how to use it for livestreaming.
 
 ### Microsoft — Intern Manager & Mentor
 
@@ -137,6 +156,8 @@ _June 2017 - Present_
 
 ## Presentations, Writings, and Talks
 
+- Understanding Gamers' Expressions of Compassion and Gratitude on Discord (2026): Toby Baratta & Katie Salen Tekinbaş. Poster and short paper, Meaningful Play 2026, Carnegie Mellon University.
+- All Things in Moderation (2025): Conference presentation.
 - Grinnell Says 'Thrive, not Survive': Our History says we should simply be happy to be alive (2016): Researched history of suicide at Grinnell (college and community) in over one hundred years of college newspaper records and interviewing students and alumni, discovering a pattern of student suicides every 4-5 years dating back to 1994. Published article in [Grinnell College Vantage Point vol. 2, June 2016](https://gcvantagepoint.wordpress.com/2016/06/07/grinnell-says-thrive-not-survive/)
 - Drink Espresso; Don't Be Depresso: Coming Up For Air When Deep In a Problem (2020): React Podcast - Lightning Talk Series
 - Queer Womyn in Technology: Creating Inclusive Spaces within Academia and Industry: Workshop at the Midwest Bisexual Lesbian Gay Transgender Asexual College Conference
