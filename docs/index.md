@@ -4,7 +4,9 @@ outline: false
 
 # Hi, I'm Toby
 
-I’m a third-year PhD student in Informatics at the University of California, Irvine. I study gaming communities online, including how game design shapes their respective communities. I've been focusing around collaboration, as well as how compassion and gratitude are expressed on Discord. I like platform studies, how gaming communities organize, govern themselves, and support one another, including how people express compassion and gratitude online. 
+I’m a third-year PhD student in Informatics at the University of California, Irvine. I study online gaming communities: how the design of games and platforms shapes the ways people organize, govern themselves, and look out for one another. Right now that means a study of how young adults express compassion and gratitude on Discord, and how Discord's features make that easier or harder.
+
+Before my PhD, I spent years in industry as a software engineer at Microsoft and as a broadcast and technical director for esports events, which is where a lot of my research questions come from.
 
 I'm in the [Made with Play](https://sites.uci.edu/madewithplay/) lab, part of the [Connected Learning Lab](https://connectedlearning.uci.edu/). We do some really cool stuff!
 
