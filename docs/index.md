@@ -4,7 +4,7 @@ outline: false
 
 # Hi, I'm Toby
 
-I’m a third-year PhD student in Informatics at the University of California, Irvine. I study how platforms shape online communities. We tend to describe communities with one label, like "gaming," "fandom," or "support," but people experience them along several dimensions at once: why they belong, who can get in, how big the space is, and what role they hold. I'm interested in how those combinations shape whether people feel safe to share, get support, and keep what they build together. Games are my main case, since they're where so much online community life happens first.
+I’m a third-year PhD student in Informatics at the University of California, Irvine. I study communities around games, particularly live-service games that keep changing for years after launch, and the platforms those communities live on. I'm interested in how game and platform design shape these communities, and in how communities form, organize, and maintain themselves over time.
 
 Right now that means a study of how young adults express compassion and gratitude across the Discord servers they belong to, and how Discord's features make that easier or harder.
 
