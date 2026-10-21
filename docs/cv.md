@@ -20,7 +20,7 @@ title: Curriculum Vitae
 **Ph.D. in Informatics**  
 _Irvine, California – Sep 2024–Present_
 
-- Researching communities around games, particularly live-service games: how game and platform design shape these communities, and how communities form and maintain themselves.
+- Researching communities around games, particularly live-service games, and the platforms they live on: how game and platform design shape these communities, how communities form and maintain themselves, and how grassroots communities govern themselves through codes of conduct and their enforcement.
 - Advised by Professor Katie Salen Tekinbaş.
 
 ### Grinnell College

@@ -4,7 +4,7 @@ outline: false
 
 # Hi, I'm Toby
 
-I’m a third-year PhD student in Informatics at the University of California, Irvine. I study communities around games, particularly live-service games that keep changing for years after launch, and the platforms those communities live on. I'm interested in how game and platform design shape these communities, and in how communities form, organize, and maintain themselves over time.
+I’m a third-year PhD student in Informatics at the University of California, Irvine. I study communities around games, particularly live-service games, and the platforms they live on: how game and platform design shape these communities, and how communities form and maintain themselves over time. I'm especially interested in how grassroots communities govern themselves, from the codes of conduct they write to how they enforce them.
 
 Right now that means a study of how young adults express compassion and gratitude across the Discord servers they belong to, and how Discord's features make that easier or harder.
 
